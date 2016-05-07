@@ -9,7 +9,7 @@ Technologies used were:
 * d3.js
 * python
 
-[LINK TO CASE STUDY](http://54.173.153.248:8888/casestudy/social.html)
+[LINK TO CASE STUDY](http://54.173.153.248:8888/casestudy/index.html)
  * Whole Foods: click any of the charts to filter all the other charts. select any time period to filter by time, or slide the time period gradually to see trends change. 
  * Demos: this was an analysis of sales for 2 weeks prior to and 2 weeks after a promotion.
  * Social Media Engagement Patterns: shows the trends for Likes, Posts, Likes/Post, Comments, Likes+Comments over time for different social media sites. The text and URLs are hidden.
