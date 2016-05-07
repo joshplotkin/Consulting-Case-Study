@@ -1,4 +1,4 @@
-# Data Science Consulting
+## Data Science Consulting
 
 This was a consulting project creating during Fall 2014 using sales, demo, and social media data for a real business. The data is randomized and brand and product names are masked. The Facebook, Twitter, and Instagram data were fetched via APIs. 
 
