@@ -5,7 +5,7 @@ This was a consulting project creating during Fall 2014 using sales, demo, and s
 I coded all of the d3, node+express, and html/css. I also prepped/loaded the mysql data and prepped the linux server. Other contributors were Priya Venkat, Preteek Goel, and Divyansh Argawal.
 
 Technologies used were:
-* AWS EC2 (ubuntu)
+* AWS EC2 (redhat)
 * mySQL
 * node.js + express.js
 * d3.js
