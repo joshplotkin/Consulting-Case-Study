@@ -8,10 +8,10 @@ var parseUrlencoded = bodyParser.urlencoded({extended : false});
 
 var mysql = require('mysql');
 var dbParams = {
-      host     : 'xxxx',
+      host     : 'localhost',
       user     : 'xxxx',
-      password : 'xxxx'
-      ,port        :  3306
+      password : 'xxxx',
+      port        :  3306
     };
 var connection = mysql.createConnection(dbParams);
 connection.connect(function(err) {
@@ -37,7 +37,7 @@ function readJSONFile(filename, callback) {
 
 router.route('/socialposts')
 .get(function(req, res){
-	var q = "select 'Twitter' as site, created_at as post_date, NULL as post_time, text as post_text, fav_count as likes, NULL as comments, NULL as description, NULL as url, NULL as post_type from case_study.tweets  where username = 'TheOwlsBrew' \
+	var q = "select 'Twitter' as site, created_at as post_date, NULL as post_time, text as post_text, fav_count as likes, NULL as comments, NULL as description, NULL as url, NULL as post_type from case_study.tweets  where username = 'xxxxxxx' \
 union \
 select 'Instagram' as site, date as post_date, time as post_time, text as post_text, num_likes as likes, num_comments as comments, NULL as description, url as url, NULL as post_type from case_study.media M \
 union \
@@ -45,7 +45,6 @@ select 'Facebook' as site, created_time as post_date, NULL as post_time, message
 ";
 	connection.query(q, function(err, social, fields){
 		console.log('socialposts');
-		console.log(social);
 		// TODO: fix dates
 	    for(i in social){
 	        if(social[i].site === 'Facebook'){
@@ -73,13 +72,12 @@ select 'Facebook' as site, created_time as post_date, NULL as post_time, message
 
 router.route('/mentions')
 .get(function(req, res){
-	var q = "select source_type as site, published_at as post_date, description as post_text, NULL as num_likes, tone as polarity, tone_score as polarity_score, title, url, source_name, source_url, picture_url, 'mention' as db_source from case_study.mention where source_name != 'TheOwlsBrew' and source_name != 'BrewLabTea' and (source_type != 'twitter' or published_at < '2014-12-01') \
+	var q = "select source_type as site, published_at as post_date, description as post_text, NULL as num_likes, tone as polarity, tone_score as polarity_score, title, url, source_name, source_url, picture_url, 'mention' as db_source from case_study.mention where source_name != 'xxxxxx' and source_name != 'BrewLabTea' and (source_type != 'twitter' or published_at < '2014-12-01') \
 union \
-select 'twitter' as site, created_at as post_date, text as pot_text, fav_count as num_likes, polarity, polarity_score, NULL as title, NULL as url, NULL as source_name, NULL as source_url, NULL as picture_url, 'twitter' as db_source from case_study.tweets where username != 'TheOwlsBrew' and username not like 'Beer%' and text not like '%beer%' \
+select 'twitter' as site, created_at as post_date, text as pot_text, fav_count as num_likes, polarity, polarity_score, NULL as title, NULL as url, NULL as source_name, NULL as source_url, NULL as picture_url, 'twitter' as db_source from case_study.tweets where username != 'xxxxxx' and username not like 'Beer%' and text not like '%beer%' \
 order by site, post_text";
 	connection.query(q, function(err, mentions, fields){
 		console.log('mentions');
-		console.log(mentions);
 
 	    for(i in mentions){
 	        if(mentions[i].db_source === 'mention'){
@@ -195,7 +193,6 @@ router.route('/demo')
 		});
 		});
 
-		console.log(demoStatsArr);
 		res.json(demoStatsArr);
 	});
 });
@@ -235,7 +232,6 @@ router.route('/keywords')
 	var q = "select * from case_study.keyword";
 	connection.query(q, function(err, kw, fields){
 		console.log('keywords');
-		console.log(kw);
 
 		res.json(kw);
 	});

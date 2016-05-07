@@ -1,0 +1,90 @@
+/accessories/costumes/costumes cocktails
+/activities/events/occasions/special occasions/holidays/unlimited holiday cocktails
+/colors/black/black cocktails cheers
+/colors/black/brew pink black
+/colors/black/pink black cocktails
+/drinks/signature cocktails/weekend signature cocktail
+/features/wishlists/brew wishlist
+/foods/desserts/cupcakes/followtheowl cupcakes cocktails
+/ingredients/seasonings/spices/ginger/passionfruit ginger cocktail
+/initiatives/projects/new website/new website brew
+/mixed drink recipes/cocktail recipes/cocktail recipe cards
+/mixed drink recipes/cocktail recipes/holiday cocktail recipe
+/organizations/clubs/monthly cocktail club
+/organizations/groups/teams/team brew
+/people/artists/bands/killers/killer cocktails
+/people/brew associate callianicoletti
+/people/brew fan
+/people/brew fans
+/people/brew founder jennie
+/people/brew founder jennieripps
+/people/brooklyn brooklyn cocktails
+/people/collins vodka brew
+/people/creative brew fan
+/people/festive brew fans
+/people/founder jennie ripps
+/people/lovely brew fans
+/people/loyal brew fan
+/people/monday brew fans
+/people/passengers/crew/brew crew
+/people/passengers/crew/original brew crew
+/people/players/john daly/john daly cocktail
+/places/cities/boston/brew pride boston
+/places/cities/brooklyn/brooklyn followtheowl drinkwise
+/places/cities/brooklyn/brooklyn ginowls brew
+/platforms/brew
+/platforms/brew/brew cheerstothat drinkwise
+/platforms/brew/brew cocolada drinkwise
+/platforms/brew/brew cofounders jennie
+/platforms/brew/brew crew. rachaelmstuart
+/platforms/brew/brew drinkwise bfb
+/platforms/brew/brew followtheowl
+/platforms/brew/brew happy
+/platforms/brew/brew hq
+/platforms/brew/brew includes
+/platforms/brew/brew nyfw
+/platforms/brew/brew regram
+/platforms/brew/brew the classic
+/platforms/brew/brew thejailbird drinkwise
+/platforms/brew/coco brew
+/platforms/brew/cocolada brew
+/products/beverages/tea/brew tea cocktails
+/products/beverages/tea/brew tea time
+/products/beverages/tea/cocktails tea
+/products/beverages/tea/cocktails tea diy
+/products/beverages/tea/cocktails tea drinkwise.
+/products/beverages/tea/cold brew tea
+/products/beverages/tea/diy cocktails tea
+/products/beverages/tea/drinkwise tea cocktails
+/products/beverages/tea/halloween tea cocktails
+/products/beverages/tea/summer tea cocktails
+/products/beverages/tea/tea cocktails weve
+/products/chemicals/additives/flavors/brew flavor
+/products/drinks/cocktails/barcart cocktails repost
+/products/drinks/cocktails/brew cocktail
+/products/drinks/cocktails/brew cocktails
+/products/drinks/cocktails/brew specialty cocktail
+/products/drinks/cocktails/cent cocktails
+/products/drinks/cocktails/cocktail happy mdw
+/products/drinks/cocktails/cocktailparty cocktailtime cocktails
+/products/drinks/cocktails/delectable spring cocktail
+/products/drinks/cocktails/delicious cocktail cocktails
+/products/drinks/cocktails/droolworthy madrugal cocktail
+/products/drinks/cocktails/earthy cocktails
+/products/drinks/cocktails/extracelestial repost cocktails
+/products/drinks/cocktails/floral cocktails
+/products/drinks/cocktails/garnish floral cocktails
+/products/drinks/cocktails/goodforthesoul winter cocktails
+/products/drinks/cocktails/knockout cocktails
+/products/drinks/cocktails/mardi grasinspired cocktail
+/products/drinks/cocktails/owlshour drinkwise cocktails
+/products/drinks/cocktails/repost cocktails
+/products/drinks/cocktails/salty sour cocktail
+/products/drinks/cocktails/seaside cocktails
+/products/drinks/cocktails/specialty cocktail thanks
+/products/fresh/fresh brew
+/products/holiday gifts/holiday gifts cocktails
+/products/materials/metals/nickel/owlshour nickel cocktail
+/products/materials/metals/nickel/right nickel cocktails
+/products/services/resources/materials/books/diy cocktail book
+/times/night/night followtheowl drinkwise
